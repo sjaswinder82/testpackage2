@@ -1,0 +1,24 @@
+{
+    "name": "jaswinder/testpackage2",
+    "description": "This is a test package to learn package development",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Jaswinder\\Testpackage2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jaswinder Singh",
+            "email": "sjeswinder@jstrainer.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jaswinder\\Testpackage2\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}

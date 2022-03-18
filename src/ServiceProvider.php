@@ -10,7 +10,7 @@ class ServiceProvider extends SupportServiceProvider
     {
         // load my config
         // load routes
-        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         // laod migrations
         // load the views
     }
